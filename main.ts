@@ -1,3 +1,9 @@
+input.onButtonPressed(Button.A, function () {
+    control.reset()
+})
+makerbit.onUltrasonicObjectDetected(100, DistanceUnit.CM, function () {
+    kitronik_servo_lite.stop()
+})
 servos.P1.setRange(0, 180)
 servos.P2.setRange(0, 180)
 basic.forever(function () {
