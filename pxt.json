@@ -9,7 +9,8 @@
         "servo": "*",
         "radio-broadcast": "*",
         "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.6",
-        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8"
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12"
     },
     "files": [
         "main.blocks",
