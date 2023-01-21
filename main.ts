@@ -7,11 +7,11 @@ basic.forever(function () {
     PingUnit.MicroSeconds
     )
     distance = sonar2 * 0.034 / 10
-    basic.showNumber(distance)
-    serial.writeValue("Distance", distance)
     if (distance <= 20) {
         kitronik_servo_lite.stop()
     } else if (distance > 20) {
         kitronik_servo_lite.forward()
     }
+    basic.showNumber(distance)
+    serial.writeValue("Distance", distance)
 })
